@@ -98,33 +98,42 @@ header nav a:active {
     display: block;
 }
 
-.sectionwrapper {
-    flex-direction: column;
-    justify-content: space-around;
+#forside .sectionwrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
     display: flex;
-    display: inline-block;
+    flex-wrap: wrap;
+
+
 
 }
 
-.toppic {
+#forside .toppic {
     width: 20vw;
     height: 20vw;
-    margin: 2vw;
+    margin: 1.5vw;
+    flex-grow: 1;
+    flex-basis: 1200px;
     background-color: green;
 }
 
-.col1 {
+#forside .col {
     width: 10vw;
     height: 10vw;
-    margin: 1vw;
+    margin: 1.5vw;
     flex-grow: 1;
+    flex-basis: 200px;
+
     background-color: blue;
-    flex-direction: row;
-    justify-content: space-around;
+    /*    flex-direction: row;*/
+    justify-content: space-between;
+
 
 
 }
 
+/*
 .col2 {
     width: 10vw;
     height: 10vw;
@@ -157,3 +166,4 @@ header nav a:active {
     flex-direction: row;
 
 }
+*/
