@@ -109,14 +109,15 @@ header nav a:active {
 
 }
 
-#forside .toppic {
-    width: 20vw;
-    height: 20vw;
+#forside .toppic img {
+    width: 95vw;
+    height: 50vw;
     margin: 1.5vw;
     flex-grow: 1;
-    flex-basis: 1200px;
+    flex-basis: 900px;
     background-color: green;
 }
+
 
 #forside .col {
     width: 10vw;
