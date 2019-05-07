@@ -7,7 +7,7 @@ img {
 }
 
 #header img {
-    width: 50%;
+    width: 25%;
 }
 
 header nav {
@@ -17,6 +17,7 @@ header nav {
     margin: .2rem;
     margin-right: .2rem;
     background-color: green;
+    font-family: sans-serif;
 
 }
 
@@ -113,15 +114,15 @@ header nav a:active {
 
 }
 
+
 #forside .toppic img {
-    width: 95vw;
-    height: 50vw;
-    margin: 1.5vw;
-    flex-grow: 1;
-    flex-basis: 900px;
-    background-color: green;
+    width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
 #forside .col1 {
     position: relative;
@@ -145,7 +146,7 @@ header nav a:active {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0, 0, 255, 0.31);
+    background-color: rgba(0, 128, 0, 0.38);
 }
 
 #forside .col1:hover .overlay {
@@ -186,7 +187,7 @@ header nav a:active {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0, 0, 255, 0.31);
+    background-color: rgba(0, 128, 0, 0.38);
 }
 
 #forside .col2:hover .overlay {
@@ -227,7 +228,7 @@ header nav a:active {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0, 0, 255, 0.31);
+    background-color: rgba(0, 128, 0, 0.38);
 }
 
 #forside .col3:hover .overlay {
@@ -268,7 +269,7 @@ header nav a:active {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0, 0, 255, 0.31);
+    background-color: rgba(0, 128, 0, 0.38);
 }
 
 #forside .col4:hover .overlay {
