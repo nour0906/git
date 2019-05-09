@@ -4,6 +4,8 @@
 
 body {
     /*    margin: 5vw;*/
+    background-color: #fffaf0;
+    font-family: sans-serif;
 }
 
 img {
@@ -111,6 +113,7 @@ header nav a:active {
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 
 }
 
@@ -140,9 +143,12 @@ a {
 
 #forside .col1 {
     position: relative;
-    width: 20;
+    width: 20wv;
+    height: 20wv;
     margin-top: 50px;
     flex-basis: 300px;
+
+
 }
 
 
@@ -160,7 +166,7 @@ a {
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 89%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(0, 128, 0, 0.38);
@@ -177,15 +183,17 @@ a {
     font-family: sans-serif;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-48.5%, -50%);
+    -ms-transform: translate(-48.5%, -50%);
+    transform: translate(-48.5%, -50%);
     text-align: center;
+
 }
 
 #forside .col2 {
     position: relative;
-    width: 20;
+    width: 20wv;
+    height: 20wv;
     margin-top: 50px;
     flex-basis: 300px;
 }
@@ -208,7 +216,8 @@ a {
 
 #forside .col3 {
     position: relative;
-    width: 20;
+    width: 20wv;
+    /*    height: 20wv;*/
     margin-top: 50px;
     flex-basis: 300px;
 }
@@ -231,7 +240,8 @@ a {
 
 #forside .col4 {
     position: relative;
-    width: 20;
+    width: 20wv;
+    height: 20wv;
     margin-top: 50px;
     flex-basis: 300px;
 }
@@ -248,4 +258,137 @@ a {
 
 #forside .col4:hover .overlay {
     opacity: 1;
+}
+
+#info .col {
+    flex-basis: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vw;
+    background-color: grey;
+
+
+
+}
+
+#info .top {
+    border-right: 2px solid;
+}
+
+/********OM RØDVIN******/
+#omroedvin .sectionwrapper {
+    column-count: 2;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 10vw;
+
+}
+
+#omroedvin .col {
+    flex-basis: 350px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#omroedvin .top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+#omroedvin .col1 {
+    flex-basis: 350px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#omroedvin .top1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/********OM HVIDVIN******/
+
+#omhvidvin .sectionwrapper {
+    column-count: 2;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 10vw;
+
+}
+
+#omhvidvin .col {
+    flex-basis: 350px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#omhvidvin .top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/********OM ROSEVIN******/
+
+#omrosevin .sectionwrapper {
+    column-count: 2;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 10vw;
+
+}
+
+#omrosevin .col {
+    flex-basis: 350px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#omrosevin .top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/********OM BOBLER******/
+
+
+#ombobler .sectionwrapper {
+    column-count: 2;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 10vw;
+
+}
+
+#ombobler .col {
+    flex-basis: 350px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ombobler .top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
