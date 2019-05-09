@@ -336,7 +336,6 @@ a {
     position: relative;
     width: 20wv;
     height: 20wv;
-
     flex-basis: 350px;
 }
 
@@ -352,7 +351,6 @@ a {
     position: relative;
     width: 20wv;
     height: 20wv;
-
     flex-basis: 350px;
 }
 
@@ -368,7 +366,6 @@ a {
     position: relative;
     width: 20wv;
     height: 20wv;
-
     flex-basis: 350px;
 }
 
@@ -384,7 +381,6 @@ a {
     position: relative;
     width: 20wv;
     height: 20wv;
-
     flex-basis: 350px;
 }
 
@@ -431,7 +427,6 @@ a {
     position: relative;
     width: 20wv;
     height: 20wv;
-
     flex-basis: 350px;
 }
 
@@ -444,26 +439,107 @@ a {
 /********OM HVIDVIN******/
 
 #omhvidvin .sectionwrapper {
+
     column-count: 2;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    top: 10vw;
+    /*    top: 10vw;*/
+
+
+}
+
+#omhvidvin .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(139, 0, 0, 0.52);
+}
+
+
+
+#omhvidvin .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 
 }
 
 #omhvidvin .col {
-    flex-basis: 350px;
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
 }
 
-#omhvidvin .top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+#omhvidvin .col:hover .overlay {
+    opacity: 1;
+}
+
+/*vin1*/
+#omhvidvin .col1 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+#omhvidvin .col1:hover .overlay {
+    opacity: 1;
+}
+
+/*vin2*/
+#omhvidvin .col2 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+#omhvidvin .col2:hover .overlay {
+    opacity: 1;
+}
+
+/*vin3*/
+#omhvidvin .col3 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+#omhvidvin .col3:hover .overlay {
+    opacity: 1;
+}
+
+/*vin4*/
+#omhvidvin .col4 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+#omhvidvin .col4:hover .overlay {
+    opacity: 1;
 }
 
 /********OM ROSEVIN******/
@@ -477,18 +553,88 @@ a {
 
 }
 
+#omrosevin .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 105, 180, 0.56);
+}
+
+
+
+#omrosevin .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
 #omrosevin .col {
-    flex-basis: 350px;
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
 }
 
 #omrosevin .top {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+#omrosevin .col:hover .overlay {
+    opacity: 1;
+}
+
+#omrosevin .col1 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+#omrosevin .col1:hover .overlay {
+    opacity: 1;
+}
+
+#omrosevin .col2 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+#omrosevin .col2:hover .overlay {
+    opacity: 1;
+}
+
+#omrosevin .col3 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+#omrosevin .col3:hover .overlay {
+    opacity: 1;
 }
 
 /********OM BOBLER******/
@@ -503,16 +649,47 @@ a {
 
 }
 
-#ombobler .col {
-    flex-basis: 350px;
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+#ombobler .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 127, 80, 0.49);
 }
 
-#ombobler .top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+
+
+#ombobler .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+#ombobler .col {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+
+#ombobler .col:hover .overlay {
+    opacity: 1;
 }
