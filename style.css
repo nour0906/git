@@ -166,7 +166,7 @@ a {
     left: 0;
     right: 0;
     height: 100%;
-    width: 89%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(0, 128, 0, 0.38);
@@ -205,7 +205,6 @@ a {
     height: 20vw;
 
 }
-
 
 
 #forside .col2:hover .overlay {
@@ -279,6 +278,8 @@ a {
 }
 
 /********OM RØDVIN******/
+
+
 #omroedvin .sectionwrapper {
     column-count: 2;
     position: absolute;
@@ -288,34 +289,157 @@ a {
 
 }
 
+/*VIN*/
+
 #omroedvin .col {
+
+    position: relative;
+    width: 20wv;
+    height: 20wv;
     flex-basis: 350px;
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-#omroedvin .top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+#omroedvin .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(139, 0, 0, 0.52);
 }
 
+#omroedvin .col:hover .overlay {
+    opacity: 1;
+}
+
+#omroedvin .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+/*Vin1*/
 
 #omroedvin .col1 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+
     flex-basis: 350px;
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-#omroedvin .top1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+
+
+#omroedvin .col1:hover .overlay {
+    opacity: 1;
 }
+
+/*Vin2*/
+
+#omroedvin .col2 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+
+    flex-basis: 350px;
+}
+
+
+
+
+#omroedvin .col2:hover .overlay {
+    opacity: 1;
+}
+
+/*VIN3*/
+#omroedvin .col3 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+
+    flex-basis: 350px;
+}
+
+
+
+
+#omroedvin .col3:hover .overlay {
+    opacity: 1;
+}
+
+/*VIN4*/
+#omroedvin .col4 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+
+    flex-basis: 350px;
+}
+
+
+
+#omroedvin .col4:hover .overlay {
+    opacity: 1;
+}
+
+/*VIN5*/
+#omroedvin .col5 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+
+    flex-basis: 350px;
+}
+
+
+
+
+#omroedvin .col5:hover .overlay {
+    opacity: 1;
+}
+
+/*VIN6*/
+#omroedvin .col6 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+
+    flex-basis: 350px;
+}
+
+
+
+
+#omroedvin .col6:hover .overlay {
+    opacity: 1;
+}
+
+/*VIN7*/
+#omroedvin .col7 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+
+    flex-basis: 350px;
+}
+
+#omroedvin .col7:hover .overlay {
+    opacity: 1;
+}
+
+
 
 /********OM HVIDVIN******/
 
