@@ -185,11 +185,13 @@ a {
     position: absolute;
     font-family: sans-serif;
     top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-48.5%, -50%);
-    -ms-transform: translate(-48.5%, -50%);
-    transform: translate(-48.5%, -50%);
-    text-align: center;
+    left: 47%;
+
+    -webkit-transform: translate(48%, -50%);
+    -ms-transform: translate(-48%, -50%);
+    transform: translate(-48%, -50%);
+
+
 
 }
 
@@ -268,11 +270,12 @@ a {
 
 
 #omroedvin .sectionwrapper {
-    column-count: 2;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    top: 5vw;
+    top: .5vw;
 
 }
 
@@ -427,12 +430,12 @@ a {
 
 #omhvidvin .sectionwrapper {
 
-    column-count: 2;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-
-    top: 5vw;
+    top: .5vw;
 
 }
 
@@ -446,7 +449,7 @@ a {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(139, 0, 0, 0.52);
+    background-color: rgba(0, 0, 255, 0.44);
 }
 
 
@@ -532,11 +535,12 @@ a {
 /********OM ROSEVIN******/
 
 #omrosevin .sectionwrapper {
-    column-count: 2;
-    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    top: 10vw;
+    top: .5vw;
 
 
 }
@@ -629,11 +633,12 @@ a {
 
 
 #ombobler .sectionwrapper {
-    column-count: 2;
-    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    top: 10vw;
+    top: .5vw;
 
 }
 
@@ -844,16 +849,18 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: column;
+    margin: 5vw;
 
 }
 
 
 
 #om .top {
-    text-align: center;
+    /*    text-align: center;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 
 
 }
@@ -864,6 +871,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 1vw;
 
 }
 
