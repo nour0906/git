@@ -865,21 +865,33 @@ a {
 
 }
 
+#om img {
+    width: 100%;
+}
+
 #om .col {
-    flex-basis: 300px;
+    flex-basis: 500px;
     flex-grow: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     margin: 1vw;
+    align-items: flex-start;
 
+
+}
+
+#col .top {
+    flex-basis: 300px;
+    flex-grow: 1px;
 }
 
 #om .bottom {
-    flex-grow: 0;
+    flex-grow: 1px;
+    flex-basis: 500px;
 }
 
-#kontakt .content {
+#om #kontakt .content {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
